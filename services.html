@@ -22,6 +22,39 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+<style>
+  .skill-list {
+    list-style: square;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .skill-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .skill-level {
+    float: right;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  /* Warna level kemampuan */
+  .mahir {
+    background-color: #4caf50; /* hijau */
+  }
+
+  .menengah {
+    background-color: #ffb300; /* kuning */
+  }
+</style>
+
     
 </head>
 
@@ -41,7 +74,7 @@
                                 <li><a href="./index.html">Beranda</a></li>
                                 <li><a href="./about.html">Tentang</a></li>
                                 <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li class="active"><a href="./services.html">Resume</a></li>
+                                <li class="active"><a href="./services.html">Riwayat Hidup</a></li>
                                 <li><a href="./contact.html">Kontak</a></li>
                             </ul>
                         </nav>
@@ -63,10 +96,10 @@
     <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
         <div class="container text-center">
             <div class="breadcrumb__text">
-                <h2>Pengalaman & Keahlian</h2>
+                <h2>Pengalaman Dan Keahlian</h2>
                 <div class="breadcrumb__links">
                     <a href="./index.html">Beranda</a>
-                    <span>Pengalaman & Keahlian</span>
+                    <span>Pengalaman Dan Keahlian</span>
                 </div>
             </div>
         </div>
@@ -79,7 +112,7 @@
 
             <!-- Pendidikan -->
             <div class="section-title">
-                <h2>🎓 Pendidikan</h2>
+                <h2>Pendidikan</h2>
             </div>
             <div class="services__item">
                 <p><strong>SMKN 1 Kawali</strong> – Pengembangan Perangkat Lunak & Game (PPLG)</p>
@@ -93,7 +126,7 @@
 
             <!-- Pengalaman -->
             <div class="section-title" style="margin-top:40px;">
-                <h2>💼 Pengalaman</h2>
+                <h2>Pengalaman</h2>
             </div>
             <div class="services__item">
                 <p><strong>PKL di PT Inovindo Digital Media</strong></p>
@@ -101,23 +134,25 @@
                 <p>Mengerjakan proyek pembuatan dan pengelolaan website perusahaan, serta belajar langsung dunia kerja industri IT.</p>
             </div>
 
-            <!-- Kemampuan -->
-            <div class="section-title" style="margin-top:40px;">
-                <h2>💪 Kemampuan</h2>
-            </div>
-            <div class="services__item">
-                <ul style="list-style: square; margin-left: 20px;">
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>PHP dan Laravel Framework</li>
-                    <li>Desain UI menggunakan Figma</li>
-                    <li>Manajemen database MySQL</li>
-                    <li>Editing foto dan video dasar</li>
-                </ul>
-            </div>
+            
+<!-- Kemampuan -->
+<div class="section-title" style="margin-top:40px;">
+  <h2>Kemampuan</h2>
+</div>
+
+<div class="services__item">
+  <ul class="skill-list">
+    <li>HTML, CSS, JavaScript <span class="skill-level mahir">Mahir</span></li>
+    <li>PHP dan Laravel Framework <span class="skill-level mahir">Mahir</span></li>
+    <li>Desain UI menggunakan Figma <span class="skill-level menengah">Menengah</span></li>
+    <li>Manajemen database MySQL <span class="skill-level mahir">Mahir</span></li>
+    <li>Editing foto dan video dasar <span class="skill-level menengah">Menengah</span></li>
+  </ul>
+</div>
 
             <!-- Hobi -->
             <div class="section-title" style="margin-top:40px;">
-                <h2>🎮 Hobi</h2>
+                <h2>Hobi</h2>
             </div>
             <div class="services__item">
                 <p>Saya gemar bermain game, berolahraga, dan mengutak-atik kode untuk mencoba hal baru di dunia teknologi.</p>

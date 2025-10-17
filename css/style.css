@@ -1037,18 +1037,31 @@ ol {
   padding-bottom: 150px;
 }
 
+/* Gambar utama */
 .about__pic__item {
-  height: 235px;
+  height: 320px; /* dari 235px jadi lebih tinggi */
   margin-right: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px; /* opsional: biar lebih halus */
+  overflow: hidden;
 }
+
+/* Gambar besar */
 .about__pic__item.about__pic__item--large {
-  height: 490px;
+  height: 600px; /* dari 490px jadi lebih tinggi dan proporsional */
+}
+
+/* Agar gambar tidak gepeng */
+.about__pic__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about__text {
   padding-left: 30px;
 }
+
 .about__text .services__item .services__item__icon:after {
   border-color: #281A3E;
 }
